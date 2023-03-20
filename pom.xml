@@ -3,14 +3,18 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.route250</groupId>
     <artifactId>unixdomainsocket</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
+    <name>unixdomainsocket</name>
+    <url>https://github.com/route250/UnixDomainSocket</url>
+    <description>unix domain socket for java17</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <name>unixdomainsocket</name>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
