@@ -4,37 +4,15 @@
  */
 package route250.unixdomainsocket;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
-import java.net.NoRouteToHostException;
-import java.net.PortUnreachableException;
-import java.net.Socket;
-import java.net.SocketAddress;
 import java.net.SocketException;
-import java.net.SocketImpl;
-import java.net.SocketOption;
-import java.net.SocketOptions;
-import java.net.StandardProtocolFamily;
-import java.net.StandardSocketOptions;
-import java.net.UnixDomainSocketAddress;
 import java.net.UnknownHostException;
-import java.nio.channels.Channels;
-import java.nio.channels.SocketChannel;
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
-import java.util.function.Function;
-import javax.net.SocketFactory;
-import jdk.net.ExtendedSocketOptions;
 import org.apache.logging.log4j.ThreadContext;
 
 /**
